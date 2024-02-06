@@ -38,7 +38,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.MapGet("/apicorso", () =>{
 
-    return "Ciao api del corso"
+    return "Ciao api del corso";
     
 })
 .WithName("GetApiCorso")
